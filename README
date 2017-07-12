@@ -1,0 +1,40 @@
+ALLO
+----
+ALLO is a tool for dicriminating and prioritizing allosteric pockets. The tool
+comprises two methods: naive bayes (NB) and artificial neural networks (ANN).
+The former is used to classify a pocket as allosteric or orthosteric and the
+later is used to rank allosteric pockets from a set of pockets. The main
+program along with some helper scripts can be found in the dir src. Whereas
+data can be found in the dir data.
+
+
+PREQUISITES
+-----------
+Python libraries: Numpy, scipy
+Output file from the program DoGSiteScorer.
+
+nb.py
+-------
+An implementation of a naive bayes model.
+
+
+predict_nb.py
+-------
+labels input as allosteric (A) or orthostreic (O)
+Uses NB model (nb.py)
+Uses ao.tsv
+Usage: python predict_nb.py input_file.txt
+
+example: 
+python predict_nb.py test_input/A_ASD0023_2_1N5M_1_desc.txt 
+
+the output file is written in the same directory as the input file.
+
+
+ann.py
+-------
+An implementation of a neural network model.
+
+
+
+
