@@ -8,6 +8,7 @@ program along with some helper scripts can be found in the directory src. Wherea
 data can be found in the directory data.
 
 
+
 PREQUISITES
 -----------
 Python libraries: Numpy, scipy
