@@ -20,15 +20,18 @@ infile = sys.argv[1]
 inheaders, indata = nb.parse_tsv(infile)
 
 # predict the input
+print 'Working...'
 predictions =  nb.predict(nb.descs,nb.data,inheaders,indata)
+print 'Done!'
 
 #write output
-outfile = infile.split('.')[0] + '_out.txt'
+outfile = infile.split('.')[0] + '_nb_out.txt'
 outcontent = ''
 outs = [['prediction', 'name', 'pratio']] + predictions
 for p in outs:
   content = ','.join([str(item) for item in p]) + '\n'
   outcontent += content
+print 'Output will be written to: %s' % outfile
 outfile = open(outfile, 'w')
 outfile.write(outcontent)
 outfile.close()

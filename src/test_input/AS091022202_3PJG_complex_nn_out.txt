@@ -1,0 +1,12 @@
+name,predicted probability
+AS091022202_3PJG_complex_chains_desc_P_1,0.32089
+AS091022202_3PJG_complex_chains_desc_P_2,0.07952
+AS091022202_3PJG_complex_chains_desc_P_3,0.05462
+AS091022202_3PJG_complex_chains_desc_P_5,0.02534
+AS091022202_3PJG_complex_chains_desc_P_7,0.02492
+AS091022202_3PJG_complex_chains_desc_P_11,0.0244
+AS091022202_3PJG_complex_chains_desc_P_4,0.02403
+AS091022202_3PJG_complex_chains_desc_P_6,0.02362
+AS091022202_3PJG_complex_chains_desc_P_10,0.02272
+AS091022202_3PJG_complex_chains_desc_P_8,0.02174
+AS091022202_3PJG_complex_chains_desc_P_9,0.02155

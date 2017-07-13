@@ -31,9 +31,22 @@ python predict_nb.py test_input/A_ASD0023_2_1N5M_1_desc.txt
 the output file is written in the same directory as the input file.
 
 
-ann.py
+nn.py
 -------
 An implementation of a neural network model.
+
+
+rank_nn.py
+-------
+ranks a set of pockets based on their allostery
+Uses ANN  model (nn.py)
+Uses aplc.tsv
+Usage: python rank_nn.py input_file.txt
+
+example: 
+python rank_nn.py test_input/AS091022202_3PJG_complex.txt 
+
+the output file is written in the same directory as the input file.
 
 
 
