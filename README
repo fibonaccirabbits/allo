@@ -4,8 +4,8 @@ ALLO is a tool for dicriminating and prioritizing allosteric pockets. The tool
 comprises two methods: naive bayes (NB) and artificial neural networks (ANN).
 The former is used to classify a pocket as allosteric or orthosteric and the
 later is used to rank allosteric pockets from a set of pockets. The main
-program along with some helper scripts can be found in the dir src. Whereas
-data can be found in the dir data.
+program along with some helper scripts can be found in the directory src. Whereas
+data can be found in the directory data.
 
 
 PREQUISITES
@@ -25,7 +25,12 @@ Uses NB model (nb.py)
 Uses ao.tsv
 Usage: python predict_nb.py input_file.txt
 
-example: 
+
+example:
+
+From your terminal, navigate to the directory src and execute the following
+command:
+ 
 python predict_nb.py test_input/A_ASD0023_2_1N5M_1_desc.txt 
 
 the output file is written in the same directory as the input file.
@@ -44,6 +49,10 @@ Uses aplc.tsv
 Usage: python rank_nn.py input_file.txt
 
 example: 
+
+From your terminal, navigate to the directory src and execute the following
+command:
+
 python rank_nn.py test_input/AS091022202_3PJG_complex.txt 
 
 the output file is written in the same directory as the input file.
