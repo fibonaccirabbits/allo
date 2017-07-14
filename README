@@ -29,7 +29,7 @@ Usage: python predict_nb.py input_file.txt
 
 example:
 
-From your terminal, navigate to the directory src and execute the following
+In your terminal, navigate to the directory src and execute the following
 command:
  
 python predict_nb.py test_input/A_ASD0023_2_1N5M_1_desc.txt 
@@ -51,7 +51,7 @@ Usage: python rank_nn.py input_file.txt
 
 example: 
 
-From your terminal, navigate to the directory src and execute the following
+In your terminal, navigate to the directory src and execute the following
 command:
 
 python rank_nn.py test_input/AS091022202_3PJG_complex.txt 
