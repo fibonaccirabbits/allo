@@ -1,3 +1,5 @@
+## Read the paper [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/cbdd.13161)
+
 ALLO
 ----
 ALLO is a tool for dicriminating and prioritizing allosteric pockets. The tool
